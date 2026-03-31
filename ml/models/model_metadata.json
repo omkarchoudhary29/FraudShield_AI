@@ -1,0 +1,76 @@
+{
+  "model_type": "RandomForest",
+  "version": "1.0.0",
+  "metrics": {
+    "model_name": "RandomForest",
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "auc_roc": 1.0,
+    "confusion_matrix": [
+      [
+        1700,
+        0
+      ],
+      [
+        0,
+        300
+      ]
+    ]
+  },
+  "feature_importance": {
+    "amount_deviation": 0.3221389362022113,
+    "total_transactions": 0.13200014242004507,
+    "is_high_risk_merchant": 0.11183758863272461,
+    "txn_last_day": 0.0838627800348146,
+    "is_round_amount": 0.07244835069090959,
+    "is_new_location": 0.05552488945904891,
+    "is_new_device": 0.054895887332115444,
+    "txn_last_hour": 0.03791814851286119,
+    "is_night": 0.0330859999316413,
+    "hour": 0.02169165588934071,
+    "is_new_account": 0.017855886343289676,
+    "account_age_days": 0.01609803493936289,
+    "amount": 0.015457233688864527,
+    "fraud_history": 0.009205520833719439,
+    "is_new_merchant": 0.004723024103872401
+  },
+  "feature_names": [
+    "amount",
+    "hour",
+    "is_night",
+    "is_weekend",
+    "amount_deviation",
+    "is_high_amount",
+    "is_round_amount",
+    "is_new_device",
+    "is_new_location",
+    "is_new_merchant",
+    "txn_last_hour",
+    "txn_last_day",
+    "high_velocity",
+    "account_age_days",
+    "is_new_account",
+    "total_transactions",
+    "fraud_history",
+    "is_high_risk_merchant",
+    "merchant_category_crypto",
+    "merchant_category_education",
+    "merchant_category_electronics",
+    "merchant_category_entertainment",
+    "merchant_category_gambling",
+    "merchant_category_gas_station",
+    "merchant_category_gift_cards",
+    "merchant_category_grocery",
+    "merchant_category_healthcare",
+    "merchant_category_online_shopping",
+    "merchant_category_restaurant",
+    "merchant_category_retail",
+    "merchant_category_travel",
+    "merchant_category_utilities",
+    "merchant_category_wire_transfer"
+  ],
+  "threshold": 0.5,
+  "trained_at": "2026-03-30T23:09:26.532371"
+}
